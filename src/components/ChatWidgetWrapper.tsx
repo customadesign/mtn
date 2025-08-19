@@ -55,5 +55,5 @@ export default function ChatWidgetWrapper() {
   }
   
   // Show the actual chat widget when open
-  return <ChatWidget forceOpen={true} onClose={handleClose} />
+  return <ChatWidget onClose={handleClose} />
 }

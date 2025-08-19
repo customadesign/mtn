@@ -12,7 +12,6 @@ interface Message {
 }
 
 interface ChatWidgetProps {
-  forceOpen?: boolean
   onClose?: () => void
 }
 

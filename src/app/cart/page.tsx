@@ -141,15 +141,15 @@ export default function CartPage() {
                 <div className="space-y-3 mb-6">
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">Subtotal</span>
-                    <span className="font-medium">${getTotalPrice().toLocaleString()}</span>
+                    <span className="font-medium text-black">${getTotalPrice().toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">Shipping</span>
-                    <span className="font-medium">Calculated at checkout</span>
+                    <span className="font-medium text-black">Calculated at checkout</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">Tax</span>
-                    <span className="font-medium">Calculated at checkout</span>
+                    <span className="font-medium text-black">Calculated at checkout</span>
                   </div>
                 </div>
                 
