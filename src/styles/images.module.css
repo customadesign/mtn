@@ -1,0 +1,115 @@
+/* Image optimization styles */
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+/* Ensure crisp rendering */
+.crispImage {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* High quality rendering for product images */
+.productImage {
+  image-rendering: high-quality;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Smooth transitions */
+.imageTransition {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Loading state */
+.imageLoading {
+  animation: shimmer 2s infinite;
+  background: linear-gradient(
+    90deg,
+    #f0f9ff 0%,
+    #e0f2fe 50%,
+    #f0f9ff 100%
+  );
+  background-size: 200% 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Prevent blur on scale */
+.noBlurScale {
+  transform-origin: center;
+  transform: scale(1.0001);
+  -webkit-transform: scale(1.0001);
+}
+
+/* GPU acceleration for smooth rendering */
+.gpuAccelerated {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* Responsive image container */
+.responsiveImageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Fix for Safari rendering issues */
+@supports (-webkit-appearance: none) {
+  .safariImageFix {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+  }
+}
+
+/* High DPI screen optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .highDpiImage {
+    image-rendering: -webkit-optimize-contrast;
+    transform: translateZ(0) scale(1.0001);
+  }
+}
+
+/* Hover effects for product cards */
+.imageHoverEffect:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Loading skeleton */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f0f9ff 25%,
+    #e0f2fe 50%,
+    #f0f9ff 75%
+  );
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

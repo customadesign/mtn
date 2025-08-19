@@ -1,0 +1,238 @@
+
+> mtn-portal-wireframe@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.4.6 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.50.60:3000
+
+ ✓ Starting...
+ ✓ Ready in 849ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3s
+ GET / 200 in 3183ms
+ ✓ Compiled /favicon.ico in 261ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 518ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 223ms
+ HEAD / 200 in 41ms
+ GET / 200 in 49ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 303ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 227ms
+ GET / 200 in 39ms
+ GET / 200 in 50ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 246ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 228ms
+ GET / 200 in 149ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 267ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 225ms
+ GET / 200 in 50ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 313ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 226ms
+ ✓ Compiled /_not-found/page in 149ms
+ GET / 404 in 240ms
+ GET / 404 in 25ms
+ GET / 404 in 88ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 267ms
+ GET / 404 in 44ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 252ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 228ms
+ GET / 404 in 51ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 294ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 224ms
+ ✓ Compiled in 119ms
+ GET / 200 in 99ms
+ GET / 200 in 27ms
+ GET /dashboard 404 in 45ms
+ GET /dashboard 404 in 76ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 287ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 255ms
+ ✓ Compiled /dashboard in 161ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 619ms
+ GET /dashboard 500 in 1308ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 290ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 357ms
+ GET /favicon.ico 200 in 267ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 42ms
+ GET /dashboard 404 in 489ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 282ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 237ms
+Dashboard page created
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 427ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 302ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 353ms
+ GET /favicon.ico 200 in 242ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 33ms
+ GET /dashboard 404 in 193ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 311ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 235ms
+ ⨯ ReferenceError: React is not defined
+    at DashboardPage (src/app/dashboard/page.tsx:1:42)
+> 1 | export default function DashboardPage() { return React.createElement("div", null, "Dashboard Working!") }
+    |                                          ^
+  2 | {
+  digest: '3353476660'
+}
+ GET /dashboard 200 in 91ms
+ ⨯ ReferenceError: React is not defined
+    at DashboardPage (src/app/dashboard/page.tsx:1:42)
+> 1 | export default function DashboardPage() { return React.createElement("div", null, "Dashboard Working!") }
+    |                                          ^
+  2 | {
+  digest: '3353476660'
+}
+ GET /dashboard 200 in 40ms
+ ⨯ ReferenceError: React is not defined
+    at DashboardPage (src/app/dashboard/page.tsx:1:42)
+> 1 | export default function DashboardPage() { return React.createElement("div", null, "Dashboard Working!") }
+    |                                          ^
+  2 | {
+  digest: '3353476660'
+}
+ GET /dashboard 500 in 69ms
+ GET /dashboard 404 in 259ms
+ GET /dashboard 404 in 379ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 249ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 243ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 514ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 312ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 298ms
+ GET /favicon.ico 200 in 296ms
+ ✓ Compiled in 25ms
+ ✓ Compiled /dashboard in 12ms
+ GET /dashboard 200 in 149ms
+ GET /dashboard 200 in 63ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 241ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 232ms
+ GET /dashboard 200 in 44ms
+ GET /dashboard 200 in 39ms
+ GET /dashboard 404 in 105ms
+ GET /dashboard 404 in 43ms
+ GET /dashboard 404 in 88ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 279ms
+ GET /dashboard 404 in 82ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 297ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 222ms
+ GET /dashboard 404 in 44ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 487ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 293ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 354ms
+ GET /favicon.ico 200 in 250ms
+ ⨯ ./src/app/dashboard/page.tsx:1:17
+Ecmascript file had an error
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m [33mReact[39m[33m,[39m { useState } [36mfrom[39m [32m'react'[39m[33m;[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mDashboardPage[39m() { [36mconst[39m [activeTab[33m,[39m setActiveTab] [33m=[39m useState([32m'shop'[39m)[33m;[39m [36mreturn[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'min-h-screen bg-gray-50'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'header'[39m[33m,[39m { className[33m:[39m [32m'bg-white shadow-sm border-b border-gray-200'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'flex justify-between items-center h-16'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'h1'[39m[33m,[39m { className[33m:[39m [32m'text-2xl font-bold text-gray-900'[39m }[33m,[39m [32m'MTN High Sign'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'flex space-x-4'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'button'[39m[33m,[39m { onClick[33m:[39m () [33m=>[39m setActiveTab([32m'shop'[39m)[33m,[39m className[33m:[39m [32m'px-4 py-2 rounded-lg text-sm font-medium bg-blue-100 text-blue-700'[39m }[33m,[39m [32m'🛍️ Shop'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'button'[39m[33m,[39m { onClick[33m:[39m () [33m=>[39m setActiveTab([32m'projects'[39m)[33m,[39m className[33m:[39m [32m'px-4 py-2 rounded-lg text-sm font-medium text-gray-500'[39m }[33m,[39m [32m'📋 View Projects'[39m)))))[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'main'[39m[33m,[39m { className[33m:[39m [32m'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'h2'[39m[33m,[39m { className[33m:[39m [32m'text-3xl font-bold text-gray-900 mb-2'[39m }[33m,[39m [32m'Welcome back, Admin! 👋'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'p'[39m[33m,[39m { className[33m:[39m [32m'text-gray-600 mb-8'[39m }[33m,[39m [32m'Manage your orders and explore our latest products.'[39m)[33m,[39m activeTab [33m===[39m [32m'shop'[39m [33m?[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'bg-white rounded-xl shadow-sm border border-gray-200 p-6'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'h3'[39m[33m,[39m { className[33m:[39m [32m'text-2xl font-bold text-gray-900 mb-4'[39m }[33m,[39m [32m'Shop Products'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'p'[39m[33m,[39m { className[33m:[39m [32m'text-gray-600 mb-6'[39m }[33m,[39m [32m'Browse our selection of custom signs, graphics, and printing services.'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'bg-white border border-gray-200 rounded-xl p-6'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'text-center mb-4'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'text-4xl mb-2'[39m }[33m,[39m [32m'🏪'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'span'[39m[33m,[39m { className[33m:[39m [32m'px-2 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full'[39m }[33m,[39m [32m'In Stock'[39m))[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'h4'[39m[33m,[39m { className[33m:[39m [32m'font-semibold text-gray-900 text-lg mb-2'[39m }[33m,[39m [32m'Custom Store Sign'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'p'[39m[33m,[39m { className[33m:[39m [32m'text-gray-600 text-sm mb-4'[39m }[33m,[39m [32m'Professional storefront sign with custom branding'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'p'[39m[33m,[39m { className[33m:[39m [32m'text-2xl font-bold text-blue-600'[39m }[33m,[39m [32m'.99'[39m)))) [33m:[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'bg-white rounded-xl shadow-sm border border-gray-200 p-6'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'h3'[39m[33m,[39m { className[33m:[39m [32m'text-2xl font-bold text-gray-900 mb-4'[39m }[33m,[39m [32m'View Projects'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'p'[39m[33m,[39m { className[33m:[39m [32m'text-gray-600 mb-6'[39m }[33m,[39m [32m'Track the status of your orders and view delivery information.'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'space-y-4'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'div'[39m[33m,[39m { className[33m:[39m [32m'border border-gray-200 rounded-lg p-4'[39m }[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'h4'[39m[33m,[39m { className[33m:[39m [32m'font-semibold text-gray-900 text-lg'[39m }[33m,[39m [32m'Order #1001'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'p'[39m[33m,[39m { className[33m:[39m [32m'text-gray-600 text-sm'[39m }[33m,[39m [32m'Custom Store Sign - In Production'[39m)[33m,[39m [33mReact[39m[33m.[39mcreateElement([32m'span'[39m[33m,[39m { className[33m:[39m [32m'px-2 py-1 text-xs font-medium bg-orange-100 text-orange-800 rounded-full'[39m }[33m,[39m [32m'In Production'[39m))))))[33m;[39m }
+ [90m   |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m[0m
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+ GET /dashboard 500 in 102ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 33ms
+ GET /dashboard 404 in 194ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 257ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 245ms
+ GET /dashboard 404 in 42ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 482ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 306ms
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"]
+ ⨯ [Error: The default export is not a React Component in "/dashboard/page"] {
+  page: '/dashboard'
+}
+ GET /dashboard 500 in 364ms
+ GET /favicon.ico 200 in 270ms
+ ✓ Compiled /dashboard in 21ms
+ GET /dashboard 200 in 461ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 262ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 237ms
+ GET /dashboard 200 in 43ms
+ ✓ Compiled in 19ms
+ ✓ Compiled in 27ms
+ GET /dashboard 200 in 93ms
+ ✓ Compiled in 23ms
+ GET /dashboard 200 in 88ms
+ GET /dashboard 200 in 45ms
+ GET /dashboard 200 in 79ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 248ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 222ms
+ ✓ Compiled in 24ms
+ GET /dashboard 200 in 86ms
+ GET /dashboard 200 in 45ms
+ ✓ Compiled in 20ms
+ ✓ Compiled /dashboard in 23ms
+ GET /dashboard 200 in 259ms
+ GET /dashboard 200 in 277ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 359ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 302ms
+ GET /dashboard 200 in 67ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 289ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 228ms
