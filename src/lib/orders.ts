@@ -131,7 +131,7 @@ export interface Order {
 export const mockOrders: Order[] = [
   {
     id: 'order-001',
-    orderNumber: 'MTN-2024-1001',
+    orderNumber: 'Mtn-2024-1001',
     customerName: 'John Anderson',
     customerEmail: 'john.anderson@company.com',
     placedDate: '2024-01-15T10:30:00Z',
@@ -187,7 +187,7 @@ export const mockOrders: Order[] = [
   },
   {
     id: 'order-002',
-    orderNumber: 'MTN-2024-1002',
+    orderNumber: 'Mtn-2024-1002',
     customerName: 'Sarah Mitchell',
     customerEmail: 'sarah@restaurant.com',
     placedDate: '2024-01-18T14:45:00Z',
@@ -243,7 +243,7 @@ export const mockOrders: Order[] = [
   },
   {
     id: 'order-003',
-    orderNumber: 'MTN-2024-1003',
+    orderNumber: 'Mtn-2024-1003',
     customerName: 'Michael Chen',
     customerEmail: 'mchen@techstartup.io',
     placedDate: '2024-01-20T09:15:00Z',
@@ -288,7 +288,7 @@ export const mockOrders: Order[] = [
   },
   {
     id: 'order-004',
-    orderNumber: 'MTN-2024-1004',
+    orderNumber: 'Mtn-2024-1004',
     customerName: 'Emily Rodriguez',
     customerEmail: 'emily@retailstore.com',
     placedDate: '2024-01-22T16:20:00Z',
@@ -333,7 +333,7 @@ export const mockOrders: Order[] = [
   },
   {
     id: 'order-005',
-    orderNumber: 'MTN-2024-1005',
+    orderNumber: 'Mtn-2024-1005',
     customerName: 'David Thompson',
     customerEmail: 'david@autorepair.com',
     placedDate: '2024-01-23T11:30:00Z',
@@ -372,7 +372,7 @@ export const mockOrders: Order[] = [
   },
   {
     id: 'order-006',
-    orderNumber: 'MTN-2024-1006',
+    orderNumber: 'Mtn-2024-1006',
     customerName: 'Lisa Wong',
     customerEmail: 'lisa@medicalclinic.com',
     placedDate: '2024-01-24T13:45:00Z',
@@ -414,7 +414,7 @@ export const mockOrders: Order[] = [
   },
   {
     id: 'order-007',
-    orderNumber: 'MTN-2024-1007',
+    orderNumber: 'Mtn-2024-1007',
     customerName: 'Robert Martinez',
     customerEmail: 'robert@carwash.com',
     placedDate: '2024-01-19T10:00:00Z',

@@ -101,7 +101,7 @@ export default function ProjectDetailPage() {
               <Link href="/dashboard" className="flex items-center space-x-3 group">
                 <Image 
                   src="/mtn-logo.svg" 
-                  alt="MTN High Sign Logo" 
+                  alt="Mtn High Sign Logo" 
                   width={78} 
                   height={26}
                   className="object-contain transform group-hover:scale-105 transition-transform"

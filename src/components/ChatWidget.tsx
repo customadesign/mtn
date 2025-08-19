@@ -20,7 +20,7 @@ export default function ChatWidget({ onClose }: ChatWidgetProps) {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: 'Hi there! Welcome to MTN High Sign support. How can I help you today?',
+      text: 'Hi there! Welcome to Mtn High Sign support. How can I help you today?',
       sender: 'agent',
       timestamp: new Date(),
       status: 'read'
@@ -122,7 +122,7 @@ export default function ChatWidget({ onClose }: ChatWidgetProps) {
                 <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-400 rounded-full border-2 border-blue-700"></div>
               </div>
               <div>
-                <h3 className="font-semibold">MTN Support</h3>
+                <h3 className="font-semibold">Mtn Support</h3>
                 <p className="text-xs text-blue-100">We typically reply instantly</p>
               </div>
             </div>
@@ -235,7 +235,7 @@ export default function ChatWidget({ onClose }: ChatWidgetProps) {
                 </button>
               </div>
               <p className="text-xs text-gray-400 mt-2 text-center">
-                Powered by MTN High Sign Support
+                Powered by Mtn High Sign Support
               </p>
             </div>
           </>

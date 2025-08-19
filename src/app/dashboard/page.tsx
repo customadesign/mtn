@@ -46,7 +46,7 @@ export default function DashboardPage() {
               >
                 <Image 
                   src="/mtn-logo.svg" 
-                  alt="MTN High Sign Logo" 
+                  alt="Mtn High Sign Logo" 
                   width={99} 
                   height={33}
                   className="object-contain"

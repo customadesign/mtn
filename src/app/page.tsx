@@ -35,7 +35,7 @@ export default function LoginPage() {
           <div className="mx-auto flex justify-center">
             <Image 
               src="/mtn-logo.svg" 
-              alt="MTN High Sign Logo" 
+              alt="Mtn High Sign Logo" 
               width={146} 
               height={48}
               className="object-contain"
@@ -111,7 +111,7 @@ export default function LoginPage() {
 
         <div className="text-center">
           <p className="text-xs text-gray-500">
-            This is a demo portal for MTN High Sign clients
+            This is a demo portal for Mtn High Sign clients
           </p>
         </div>
       </div>

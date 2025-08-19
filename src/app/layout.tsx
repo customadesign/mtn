@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MTN High Sign Portal",
+  title: "Mtn High Sign Portal",
   description: "Professional signage solutions for your business",
 };
 

@@ -39,7 +39,7 @@ export default function ShopPage() {
               >
                 <Image 
                   src="/mtn-logo.svg" 
-                  alt="MTN High Sign Logo" 
+                  alt="Mtn High Sign Logo" 
                   width={78} 
                   height={26}
                   className="object-contain"
