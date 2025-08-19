@@ -151,9 +151,9 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
                   <div className="flex items-center space-x-3">
                     <button
                       onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                      className="w-10 h-10 border border-gray-300 rounded-lg hover:bg-gray-50 flex items-center justify-center"
+                      className="w-10 h-10 border border-gray-300 rounded-lg hover:bg-gray-50 flex items-center justify-center text-black font-bold text-xl"
                     >
-                      -
+                      −
                     </button>
                     <input
                       type="number"
@@ -163,7 +163,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
                     />
                     <button
                       onClick={() => setQuantity(quantity + 1)}
-                      className="w-10 h-10 border border-gray-300 rounded-lg hover:bg-gray-50 flex items-center justify-center"
+                      className="w-10 h-10 border border-gray-300 rounded-lg hover:bg-gray-50 flex items-center justify-center text-black font-bold text-xl"
                     >
                       +
                     </button>
