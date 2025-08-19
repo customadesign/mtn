@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useRef, useEffect } from 'react'
-import { MessageCircle, X, Send, Minimize2, MoreVertical, Paperclip, Smile } from 'lucide-react'
+import { MessageCircle, X, Send, Minimize2, Paperclip, Smile } from 'lucide-react'
 
 interface Message {
   id: string
@@ -16,7 +16,7 @@ interface ChatWidgetProps {
   onClose?: () => void
 }
 
-export default function ChatWidget({ forceOpen = false, onClose }: ChatWidgetProps) {
+export default function ChatWidget({ onClose }: ChatWidgetProps) {
   const [isMinimized, setIsMinimized] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
     {

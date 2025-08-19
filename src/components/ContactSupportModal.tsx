@@ -158,7 +158,7 @@ export default function ContactSupportModal({ isOpen, onClose, onOpenChat }: Con
             </button>
           </div>
           {view === 'options' && (
-            <p className="mt-2 text-blue-100">Choose how you'd like to get in touch with our team</p>
+            <p className="mt-2 text-blue-100">Choose how you&apos;d like to get in touch with our team</p>
           )}
         </div>
         
@@ -179,7 +179,7 @@ export default function ContactSupportModal({ isOpen, onClose, onOpenChat }: Con
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Live Chat</h3>
                     <p className="text-sm text-gray-600">
-                      Connect instantly with our support team. We're online and ready to help!
+                      Connect instantly with our support team. We&apos;re online and ready to help!
                     </p>
                   </div>
                   <div className="flex items-center space-x-2 text-green-600">
@@ -201,7 +201,7 @@ export default function ContactSupportModal({ isOpen, onClose, onOpenChat }: Con
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Schedule a Call</h3>
                     <p className="text-sm text-gray-600">
-                      Book a time that works for you. We'll call you at your preferred time.
+                      Book a time that works for you. We&apos;ll call you at your preferred time.
                     </p>
                   </div>
                   <div className="flex items-center space-x-2 text-purple-600">
@@ -403,10 +403,10 @@ export default function ContactSupportModal({ isOpen, onClose, onOpenChat }: Con
               </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-2">Call Scheduled!</h3>
               <p className="text-gray-600 mb-1">
-                We'll call you on {selectedDate?.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                We&apos;ll call you on {selectedDate?.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
               </p>
               <p className="text-gray-600">at {selectedTime}</p>
-              <p className="text-sm text-gray-500 mt-4">You'll receive a confirmation email shortly.</p>
+              <p className="text-sm text-gray-500 mt-4">You&apos;ll receive a confirmation email shortly.</p>
             </div>
           )}
         </div>

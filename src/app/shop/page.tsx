@@ -18,7 +18,7 @@ export default function ShopPage() {
     ? products 
     : products.filter(p => p.category === selectedCategory)
 
-  const handleAddToCart = (product: any) => {
+  const handleAddToCart = (product: typeof products[0]) => {
     addToCart(product)
     setShowCartNotification(true)
     setTimeout(() => setShowCartNotification(false), 2000)

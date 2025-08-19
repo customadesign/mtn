@@ -11,7 +11,7 @@ export default function DashboardPage() {
   const [activeTab, setActiveTab] = useState('overview')
   const [recentOrders, setRecentOrders] = useState<ReturnType<typeof getRecentOrders>>([])
   const [stats, setStats] = useState<ReturnType<typeof getOrderStats>>({ total: 0, pending: 0, delivered: 0, onHold: 0 })
-  const [featuredProducts, setFeaturedProducts] = useState(products.slice(0, 4))
+  const [featuredProducts] = useState(products.slice(0, 4))
 
   useEffect(() => {
     setRecentOrders(getRecentOrders(3))

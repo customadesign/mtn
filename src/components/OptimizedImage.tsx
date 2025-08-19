@@ -57,7 +57,7 @@ export default function OptimizedImage({
     : undefined
 
   // Fallback image for errors
-  const fallbackSrc = '/mtn-logo.svg'
+  // const fallbackSrc = '/mtn-logo.svg'
 
   const handleLoadingComplete = () => {
     setIsLoading(false)
@@ -92,16 +92,17 @@ export default function OptimizedImage({
     onError: handleError,
     priority: priority,
     sizes: defaultSizes,
-    style: { objectFit: objectFit as any }
+    style: { objectFit: objectFit as React.CSSProperties['objectFit'] }
   }
 
   if (fill) {
-    return <Image {...imageProps} fill />
+    return <Image {...imageProps} fill alt={alt} />
   }
 
   return (
     <Image
       {...imageProps}
+      alt={alt}
       width={width || 500}
       height={height || 500}
     />
